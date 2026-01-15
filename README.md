@@ -1,1 +1,1 @@
-Self explantory really, a personal blog using GitHub Pages.
+Self explantory really, a personal blog hosted and created using GitHub Pages.
