@@ -19,6 +19,24 @@ body {
     background-color: transparent !important; /* Ensures it overrides any conflicting styles */
 }
 
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+  text-align: center
+}
+
+td, th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+  text-align: center
+}
+
+tr:nth-child(even) {
+  background-color: #dddddd;
+}
+
 @keyframes disco {
   0% { color: rgb(196, 30, 58); text-shadow: 0 0 10px rgb(196, 30, 58); }
   10% { color: rgb(255, 120, 2); text-shadow: 0 0 10px rgb(255, 120, 2); }
